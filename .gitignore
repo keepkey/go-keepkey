@@ -2,3 +2,4 @@ _tools
 go-keepkey
 tags
 TAGS
+.DS_Store
