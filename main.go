@@ -1,6 +1,6 @@
 package main
 
-import "github.com/solipsis/go-keepkey/cmd"
+import "github.com/keepkey/go-keepkey/cmd"
 
 func main() {
 	cmd.Execute()

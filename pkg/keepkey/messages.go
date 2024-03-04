@@ -15,7 +15,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/pkg/term"
-	"github.com/solipsis/go-keepkey/pkg/kkproto"
+	"github.com/keepkey/go-keepkey/pkg/kkproto"
 )
 
 // ApplyPolicy enables or disables a named policy such as "ShapeShift" on the device

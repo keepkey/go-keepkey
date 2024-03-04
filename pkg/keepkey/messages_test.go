@@ -3,13 +3,12 @@ package keepkey
 import (
 	"encoding/hex"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 	"strings"
 	"testing"
 
-	"github.com/solipsis/go-keepkey/pkg/kkproto"
+	"github.com/keepkey/go-keepkey/pkg/kkproto"
 )
 
 // Device to connect to for testing
@@ -17,7 +16,7 @@ var kk *Keepkey
 var kks []*Keepkey
 
 // Default device seed for tests
-//var testSeed = "zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo wrong"
+// var testSeed = "zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo zoo wrong"
 var testSeed = "alcohol woman abuse must during monitor noble actual mixed trade anger aisle" // TREZOR test seed
 
 // Ethereum root node path
@@ -234,12 +233,12 @@ func TestSignMessage(t *testing.T) {
 
 // Encrypt a value and then decrypt it
 func TestEncryptDecrypt(t *testing.T) {
-	enc, err := kk.EncryptKeyValue(ethPath, "solipsis", []byte("potato0000000000"))
+	enc, err := kk.EncryptKeyValue(ethPath, "keepkey", []byte("potato0000000000"))
 	if err != nil {
 		t.Fatalf("Failed to encrypt key value: %v", err)
 	}
 
-	dec, err := kk.DecryptKeyValue(ethPath, "solipsis", enc)
+	dec, err := kk.DecryptKeyValue(ethPath, "keepkey", enc)
 	if err != nil {
 		t.Fatalf("Failed to decrypt key value %v", err)
 	}

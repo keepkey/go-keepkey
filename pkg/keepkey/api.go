@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/solipsis/go-keepkey/pkg/kkproto"
+	"github.com/keepkey/go-keepkey/pkg/kkproto"
 )
 
 type insightTx struct {
