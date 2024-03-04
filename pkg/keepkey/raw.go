@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/solipsis/go-keepkey/pkg/kkproto"
+	"github.com/keepkey/go-keepkey/pkg/kkproto"
 )
 
 // SendRaw sends a message to the device without waiting for a response

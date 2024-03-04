@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/solipsis/go-keepkey/pkg/kkproto"
+	"github.com/keepkey/go-keepkey/pkg/kkproto"
 
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"

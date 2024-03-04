@@ -13,7 +13,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/golang/protobuf/proto"
 	"github.com/karalabe/hid"
-	"github.com/solipsis/go-keepkey/pkg/kkproto"
+	"github.com/keepkey/go-keepkey/pkg/kkproto"
 )
 
 // TransportType defines the interface to interact with the device

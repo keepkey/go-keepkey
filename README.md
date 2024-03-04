@@ -10,8 +10,8 @@ brew install libusb
 
 ## Installation
 
-    go get -u github.com/solipsis/go-keepkey
-    go install github.com/solipsis/go-keepkey
+    go get -u github.com/keepkey/go-keepkey
+    go install github.com/keepkey/go-keepkey
 
 ## Command Line Interface (CLI)
 
@@ -63,7 +63,7 @@ Flags:
 ## Usage
 
 ```go
-import "github.com/solipsis/go-keepkey/keepkey"
+import "github.com/keepkey/go-keepkey/keepkey"
 ```
 
 ### Connect to all connected Keepkey devices

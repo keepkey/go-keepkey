@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/solipsis/go-keepkey/pkg/keepkey"
+	"github.com/keepkey/go-keepkey/pkg/keepkey"
 	"github.com/spf13/cobra"
 )
 

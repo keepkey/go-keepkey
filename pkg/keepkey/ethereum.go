@@ -7,8 +7,9 @@ import (
 	"math/big"
 	"strings"
 
+	"github.com/keepkey/go-keepkey/pkg/kkproto"
+
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/solipsis/go-keepkey/pkg/kkproto"
 )
 
 type EthereumTx struct {
